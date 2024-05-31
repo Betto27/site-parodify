@@ -5,7 +5,7 @@ Resource    ..//resources/Script.resource
 
 Test Setup       Inicializador   
 Test Teardown    Take Screenshot
-Library    JSONLibrary
+
 
 *** Test Cases ***
 
