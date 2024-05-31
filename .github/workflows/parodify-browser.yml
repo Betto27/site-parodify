@@ -17,7 +17,7 @@ jobs:
             - name: Install Node.js 
               uses: actions/setup-node@v4
               with:
-                node-version: '20.12.0'
+                node-version: '20'
 
             - name: Install Requirements
               run: |
@@ -29,4 +29,4 @@ jobs:
 
             - name: Execução dos testes
               run: |
-                robot -d ./results -v HEADLESS:true -v BROWSER:chromium tests
+                robot -v HEADLESS:true cenarios/

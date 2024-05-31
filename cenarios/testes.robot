@@ -1,6 +1,6 @@
 *** Settings ***
 
-Resource    ..//resources/base.resource
+Resource    ..//resources/Base.resource
 Resource    ..//resources/Script.resource
 
 Test Setup       Inicializador   
